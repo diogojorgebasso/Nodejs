@@ -1,5 +1,5 @@
 //APLICAÇÃO PRINCIPAL
-
+/*eslint-env es6*/
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
@@ -7,16 +7,13 @@ const path = require('path');
 
 class App {
   constructor() {
-    //PACOTE QUE FACILITA A INICIALIAZAÇÃO DO SERVER
     this.server = express();
 
     //conecta com o servidor
-    mongoose.connect('urlforMongoServices', {
+    mongoose.connect('urlforMongoServices', { //change for your url Server
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-
-
     this.middleware();
     this.routes();
   }
