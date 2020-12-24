@@ -11,7 +11,7 @@ class App {
     this.server = express();
 
     //conecta com o servidor
-    mongoose.connect('mongodb+srv://Devhouse:Devhouse@cluster0-ysyon.mongodb.net/test?retryWrites=true&w=majority', {
+    mongoose.connect('urlforMongoServices', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
