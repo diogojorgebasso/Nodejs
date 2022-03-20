@@ -10,6 +10,3 @@ No começo é mais difícil dado a falta de intuição sobre o que é uma rota, 
 ### O intermediário
 Agora que adquiriste uma base sólida, abra o terminal e cole o seguinte código: 
 ```git clone https://github.com/DiogoJBasso/Nodejs.git``` que irá clonar o código desse repo. De uma olhada se gostou do conteúdo e, em seguida, vá para a pasta "iniciante I", e ao passo que for pegando confiança, avance no conteúdo. Lembre-se que qualquer erro que surgir, fique à vontade para abrir uma issue e qualquer dúvida, a comunidade, hoje formada com 💖 por esses devs
-
-### O avançado
-Se você chegou até aqui, meus parabéns! Você já está, muito mais, que capacitado para trabalhar em qualquer lugar (se tivermos vagas, considere a Ensinu :). Continue com o excelente trabalho!
